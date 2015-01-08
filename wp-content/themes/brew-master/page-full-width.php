@@ -12,8 +12,8 @@ Template Name: Page - Full Width
 
           <div id="main" class="col-md-12 clearfix" role="main">
 
-            <!-- UNCOMMENT FOR BREADCRUMBS
-            <?php if ( function_exists('custom_breadcrumb') ) { custom_breadcrumb(); } ?> -->
+
+            <?php if ( function_exists('custom_breadcrumb') ) { custom_breadcrumb(); } ?>
 
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 

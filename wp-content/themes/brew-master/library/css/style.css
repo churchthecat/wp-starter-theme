@@ -752,7 +752,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 960px;
   }
 }
 .container-fluid {
@@ -4120,7 +4120,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding: 8px 15px;
   margin-bottom: 20px;
   list-style: none;
-  background-color: #f5f5f5;
   border-radius: 4px;
 }
 .breadcrumb > li {
@@ -7639,8 +7638,10 @@ Stylesheet: Footer
   margin-top: 60px;
   clear: both;
   color: #aaa;
-  bottom:0;
   width:100%;
+  height:80px;
+  bottom:0;
+  left:0;
    /* Height of the footer */
 
 }
@@ -7735,6 +7736,7 @@ These are the styles for posts, pages, archive, & blog index
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   border: 1px solid #ddd;
+  min-height: 650px;
 }
 /*******************************
 03. ENTRY HEADER
@@ -8042,7 +8044,6 @@ BREADCRUMBS
 *********************/
 .breadcrumb {
   padding: 4px 17px;
-  background: #f9f9f9;
 }
 /*********************
 PAGINATION
@@ -8196,3 +8197,44 @@ the original dimensions and you are good to go.
 iPHONE 5 MEDIA QUERY
 Want to get fancy for no good reason? Knock yourself out.
 */
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.formheight {
+
+    min-height: 500px;
+
+}

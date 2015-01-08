@@ -44,6 +44,49 @@ Template Name: Home Page Template
     </div>
     
   </div>
+
+  <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette about">
+        <div class="col-md-7">
+          <h3 class="featurette-heading">First featurette heading.</h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="http://blog-site.esy.es/wp-content/themes/brew-master/library/images/holder.gif" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette about">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="http://blog-site.esy.es/wp-content/themes/brew-master/library/images/holder.gif" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+          <h3 class="featurette-heading">Oh yeah, it's that good.</h3>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette about">
+        <div class="col-md-7">
+          <h3 class="featurette-heading">And lastly, this one.</h3>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="http://blog-site.esy.es/wp-content/themes/brew-master/library/images/holder.gif" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
 </div>
 
 <?php get_footer(); ?>
