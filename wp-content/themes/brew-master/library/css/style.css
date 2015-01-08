@@ -7639,6 +7639,10 @@ Stylesheet: Footer
   margin-top: 60px;
   clear: both;
   color: #aaa;
+  bottom:0;
+  width:100%;
+   /* Height of the footer */
+
 }
 #footer h4 {
   color: #fff;
