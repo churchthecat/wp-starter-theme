@@ -5,22 +5,56 @@ Template Name: Home Page Template
 ?>
 
 <?php get_header(); ?>
+<div class="headerbanner">
+<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+  <!-- Overlay -->
+  <div class="overlay"></div>
 
-<div class="homebanner">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2">
-        <h1>BREW for Wordpress</h1>
-        <p>A free and open-source starter theme based on Bones and Bootstrap 3</p>
-        <p><a href="http://www.github.com/slightlyoffbeat/brew" target="_blank" class="btn btn-default btn-lg">Github</a>
-          <a href="http://danvswild.com" target="_blank" class="btn btn-lg btn-primary">Author</a></p>
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#bs-carousel" data-slide-to="1"></li>
+    <li data-target="#bs-carousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item slides active">
+      <div class="slide-1"></div>
+      <div class="hero">
+        <hgroup>
+            <h1>We are creative</h1>
+            <h3>Get start your next awesome project</h3>
+        </hgroup>
+        <button class="btn btn-hero btn-lg" role="button">See all features</button>
       </div>
-    </div><!-- end .row-->
-  </div> <!-- end .container-->
-</div> <!-- end #banner-->
+    </div>
+    <div class="item slides">
+      <div class="slide-2"></div>
+      <div class="hero">
+        <hgroup>
+            <h1>We are smart</h1>
+            <h3>Get start your next awesome project</h3>
+        </hgroup>
+        <button class="btn btn-hero btn-lg" role="button">See all features</button>
+      </div>
+    </div>
+    <div class="item slides">
+      <div class="slide-3"></div>
+      <div class="hero">
+        <hgroup>
+            <h1>We are amazing</h1>
+            <h3>Get start your next awesome project</h3>
+        </hgroup>
+        <button class="btn btn-hero btn-lg" role="button">See all features</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 
 <div class="container">
-  <div class="row text-center">
+  <div class="row text-center below">
     
     <!--Section 1-->
     <div class="col-sm-4 about">
@@ -49,7 +83,7 @@ Template Name: Home Page Template
 
       <hr class="featurette-divider">
 
-      <div class="row featurette about">
+      <div class="row featurette about below">
         <div class="col-md-7">
           <h3 class="featurette-heading">First featurette heading.</h2>
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
@@ -86,6 +120,37 @@ Template Name: Home Page Template
       <hr class="featurette-divider">
 
       <!-- /END THE FEATURETTES -->
+
+      <div class="quote below"><i class="fa fa-quote-left fa-4x"></i></div>
+				<div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+				  <!-- Carousel indicators -->
+                  <ol class="carousel-indicators">
+				    <li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
+				    <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
+				    <li data-target="#fade-quote-carousel" data-slide-to="2"></li>
+				  </ol>
+				  <!-- Carousel items -->
+				  <div class="carousel-inner">
+				    <div class="active item">
+				    	<blockquote>
+				    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+				    	</blockquote>
+				    	<div class="profile-circle" style="background-color: rgba(0,0,0,.2);"></div>
+				    </div>
+				    <div class="item">
+				    	<blockquote>
+				    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+				    	</blockquote>
+				    	<div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div>
+				    </div>
+				    <div class="item">
+				    	<blockquote>
+				    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+				    	</blockquote>
+				    	<div class="profile-circle" style="background-color: rgba(145,169,216,.2);"></div>
+				    </div>
+				  </div>
+				</div>
 
 </div>
 
