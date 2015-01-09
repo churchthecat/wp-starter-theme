@@ -82,7 +82,7 @@ Template Name: Home Page Template
   <!-- START THE FEATURETTES -->
 
       <hr class="featurette-divider">
-
+    <h1>Features</h1>
       <div class="row featurette about below">
         <div class="col-md-7">
           <h3 class="featurette-heading">First featurette heading.</h2>
@@ -120,7 +120,7 @@ Template Name: Home Page Template
       <hr class="featurette-divider">
 
       <!-- /END THE FEATURETTES -->
-
+    <h1>Testimonials</h1>
       <div class="quote below"><i class="fa fa-quote-left fa-4x"></i></div>
 				<div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
 				  <!-- Carousel indicators -->

@@ -243,4 +243,7 @@ function list_pings( $comment, $args, $depth ) {
 		</span>
 	</li>
 <?php } // end list_pings
+
+add_theme_support( 'post-thumbnails' );
+add_image_size("posts_featured",800,350,true);
 ?>

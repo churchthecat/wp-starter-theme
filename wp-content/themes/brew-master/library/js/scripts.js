@@ -67,6 +67,8 @@ jQuery(document).ready(function($) {
     
 	
 	// add all your scripts here
+
+    add_theme_support( 'post-thumbnails' );
 	
  
 }); /* end of as page load scripts */
